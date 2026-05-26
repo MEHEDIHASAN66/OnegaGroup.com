@@ -9,21 +9,21 @@ const projects = [
     summary: 'Active site work with drilling support, crew coordination, and practical on-ground supervision.',
     badge: 'Field archive',
     image: fieldRigImage,
-    alt: 'ODCL field rig setup',
+    alt: 'Onega Group field rig setup',
   },
   {
     title: 'On-site supervision and testing',
-    summary: 'Safety-focused field oversight and close equipment handling reflect ODCL’s hands-on delivery style.',
+    summary: 'Safety-focused field oversight and careful equipment handling reflect Onega Group&apos;s hands-on delivery style.',
     badge: 'Field archive',
     image: crewInspectionImage,
-    alt: 'ODCL team supervising field testing',
+    alt: 'Onega Group team supervising field testing',
   },
   {
     title: 'Community-scale mobilization',
     summary: 'A wider operating view shows the team working in real conditions with local presence and coordination.',
     badge: 'Field archive',
     image: mobilizationImage,
-    alt: 'ODCL mobilization scene in the field',
+    alt: 'Onega Group mobilization scene in the field',
   },
   {
     title: 'Testing network directory',
@@ -44,7 +44,7 @@ function Projects() {
           <p className="text-sm uppercase tracking-[0.35em] text-amber-400">Featured works</p>
           <h2 className="mt-4 text-4xl font-semibold sm:text-5xl">Documented project visuals and supporting records</h2>
           <p className="mt-4 text-base leading-7 text-slate-300 sm:text-lg sm:leading-8">
-            This section now blends real field photography with company documentation so the portfolio feels more credible and project-driven.
+            Explore field photographs and supporting records that show how Onega Group works across investigation, testing, and site coordination.
           </p>
         </div>
 

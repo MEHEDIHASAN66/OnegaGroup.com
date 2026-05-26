@@ -13,7 +13,7 @@ function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-14 sm:px-10">
         <div className="grid gap-10 border-b border-white/10 pb-10 md:grid-cols-[1.1fr_0.9fr_0.9fr]">
           <div>
-            <p className="text-xs uppercase tracking-[0.32em] text-amber-300">ODCL</p>
+            <p className="text-xs uppercase tracking-[0.32em] text-amber-300">Onega Group</p>
             <h2 className="mt-4 text-3xl font-semibold text-white">Onega Development &amp; Construction Ltd.</h2>
             <p className="mt-4 max-w-md text-sm leading-7 text-slate-400">
               Civil engineering, survey, soil testing, piling, and documented field delivery backed by real company records and technical team credentials.

@@ -3,9 +3,9 @@ import { useState } from 'react'
 const menuItems = [
   { href: '#home', label: 'Home' },
   { href: '#about', label: 'About' },
+  { href: '#sister-concerns', label: 'Sister Concerns' },
   { href: '#services', label: 'Services' },
   { href: '#projects', label: 'Projects' },
-  { href: '#archive', label: 'Archive' },
   { href: '#team', label: 'Team' },
   { href: '#contact', label: 'Contact' },
 ]

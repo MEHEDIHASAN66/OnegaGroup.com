@@ -17,7 +17,7 @@ const archiveGroups = [
     id: 'profile',
     eyebrow: 'Company profile',
     title: 'Core company profile and introduction pages',
-    description: 'These pages cover the ODCL profile opening, management message, and foundational company narrative from the uploaded archive.',
+    description: 'These pages cover the company profile opening, management message, and foundational company background.',
     items: [
       { file: 'doc2-page-1.jpg', title: 'Company cover page', tag: 'Profile', note: 'Opening cover of the company profile.' },
       { file: 'doc2-page-2.jpg', title: 'Index page', tag: 'Profile', note: 'Main table of contents from the profile.' },
@@ -38,7 +38,7 @@ const archiveGroups = [
     id: 'credentials',
     eyebrow: 'Credentials',
     title: 'Licenses, registrations, approvals, and work records',
-    description: 'Official records and government-facing documents that support ODCL\'s company credibility and field delivery history.',
+    description: 'Official records and government-facing documents that support Onega Group\'s company credibility and field delivery history.',
     items: [
       { file: 'doc2-page-14.jpg', title: 'Trade license', tag: 'License', note: 'City corporation trade license page.' },
       { file: 'doc2-page-15.jpg', title: 'Certificate of incorporation', tag: 'Registration', note: 'Company incorporation certificate.' },
@@ -56,7 +56,7 @@ const archiveGroups = [
     id: 'team-records',
     eyebrow: 'Team records',
     title: 'Technical personnel records and field documentation',
-    description: 'Profile snapshots for the technical team, along with field visuals and page-based archive sheets from the uploaded documents.',
+    description: 'Profile snapshots for the technical team, along with field visuals and supporting archive sheets.',
     items: [
       { file: 'doc2-page-24.jpg', title: 'CAD operator profile', tag: 'Team CV', note: 'Technical record for CAD operations support.' },
       { file: 'doc2-page-25.jpg', title: 'Assistant surveyor profile', tag: 'Team CV', note: 'Survey support profile page.' },
@@ -72,7 +72,7 @@ const archiveGroups = [
       { file: 'project1-page-1.jpg', title: 'Industry reference directory 1', tag: 'Directory', note: 'Supporting external directory reference.' },
       { file: 'project1-page-2.jpg', title: 'Industry reference directory 2', tag: 'Directory', note: 'Second page of company and industry references.' },
       { file: 'project1-page-3.jpg', title: 'Industry reference directory 3', tag: 'Directory', note: 'Third page of directory-style reference records.' },
-      { file: 'contact-sheet.jpg', title: 'Contact sheet overview', tag: 'Overview', note: 'Composite overview of multiple uploaded pages.' },
+      { file: 'contact-sheet.jpg', title: 'Contact sheet overview', tag: 'Overview', note: 'Composite overview of multiple document pages.' },
       { file: 'doc2-sheet-a.jpg', title: 'Credential sheet A', tag: 'Overview', note: 'Composite sheet summarizing credential pages.' },
       { file: 'doc2-sheet-b.jpg', title: 'Credential sheet B', tag: 'Overview', note: 'Composite sheet summarizing team profile pages.' },
       { file: 'doc2-sheet-c.jpg', title: 'Credential sheet C', tag: 'Overview', note: 'Composite sheet summarizing team and field photo pages.' },
@@ -180,7 +180,7 @@ function CompanyArchive() {
   )
 
   const archiveStats = [
-    { label: 'Archive pages visible', value: String(allArchiveItems.length) },
+    { label: 'Available documents', value: String(allArchiveItems.length) },
     { label: 'Credential records', value: String(filterCounts.credentials) },
     { label: 'Team profile pages', value: String(filterCounts['team-cv']) },
   ]
@@ -237,10 +237,10 @@ function CompanyArchive() {
           <div className="animate-fade-in-up animate-stagger-1">
             <p className="text-sm uppercase tracking-[0.35em] text-amber-300">Document archive</p>
             <h2 className="mt-4 text-4xl font-semibold sm:text-5xl">
-              Uploaded company records, profile pages, and field documents now live on the site
+              Company documents, credentials, and project records
             </h2>
             <p className="mt-4 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg sm:leading-8">
-              Instead of keeping the uploaded material hidden in assets only, this section surfaces the actual profile pages, certificates, field records, and directory pages as a browsable archive.
+              Review Onega Group&apos;s company profile, registration records, technical team information, field documents, and project references in a searchable archive.
             </p>
           </div>
 
@@ -258,9 +258,9 @@ function CompanyArchive() {
           <div className="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.28em] text-amber-300">Browse archive</p>
-              <h3 className="mt-3 text-2xl font-semibold text-white">Filter by document type or download the original PDF sources</h3>
+              <h3 className="mt-3 text-2xl font-semibold text-white">Browse documents by type or download the company profile</h3>
               <p className="mt-3 text-sm leading-6 text-slate-400">
-                Showing {filteredItemCount} archive items for the current view. You can preview individual pages, search by keyword, or download both source PDFs.
+                Showing {filteredItemCount} records for the current view. Preview individual pages, search by keyword, or download the complete PDF files.
               </p>
             </div>
 
@@ -562,7 +562,7 @@ function CompanyArchive() {
               </div>
 
               <div className="mt-8 rounded-[1.5rem] border border-white/10 bg-white/5 p-5 text-sm leading-6 text-slate-300">
-                This modal view helps present the uploaded document clearly without forcing visitors to download the original file first.
+                Preview this document page before downloading the complete company profile or project reference PDF.
               </div>
             </div>
           </div>

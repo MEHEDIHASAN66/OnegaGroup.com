@@ -24,7 +24,7 @@ const blogPosts = [
   {
     id: 3,
     title: 'Quality Assurance in Civil Construction: Best Practices',
-    excerpt: 'Understanding QA/QC protocols and how ODCL ensures the highest standards in every project delivery.',
+    excerpt: 'Understanding QA/QC protocols and how Onega Group ensures the highest standards in every project delivery.',
     date: 'May 15, 2026',
     category: 'Technical',
     image: 'https://images.unsplash.com/photo-1581092160562-40fed08a5dca?auto=format&fit=crop&w=800&q=80',

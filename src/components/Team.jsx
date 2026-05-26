@@ -4,7 +4,6 @@ import assistantEngineerPhoto from '../assets/pdf-extracted/page-26-img-1.jpeg'
 import siteSupervisorPhoto from '../assets/pdf-extracted/page-27-img-1.jpeg'
 import siteEngineerPhoto from '../assets/pdf-extracted/page-28-img-1.jpeg'
 import structuralEngineerPhoto from '../assets/pdf-extracted/page-29-img-1.jpeg'
-import mustaqEngineerProfile from '../assets/pdf-previews/doc2-page-30.jpg'
 import labTechnicianPhoto from '../assets/pdf-extracted/page-31-img-1.jpeg'
 import surveyorPhoto from '../assets/pdf-extracted/page-32-img-1.jpeg'
 import secondSiteEngineerPhoto from '../assets/pdf-extracted/page-33-img-1.jpeg'
@@ -16,7 +15,6 @@ const team = [
   { name: 'Md. Jalal Uddin', role: 'Site Supervisor', image: siteSupervisorPhoto, specialty: 'Site Coordination', badge: 'Lead' },
   { name: 'Lutfar', role: 'Site Engineer', image: siteEngineerPhoto, specialty: 'Field Operations', badge: 'Field' },
   { name: 'Md. Mostafa Kamal', role: 'Structural Engineer', image: structuralEngineerPhoto, specialty: 'Structural Assessment', badge: 'Struct' },
-  { name: 'Mustaq Ahmed Shajib', role: 'Asst. Engineer', image: mustaqEngineerProfile, specialty: 'Execution Support', badge: 'Eng.' },
   { name: 'Md. Shakil', role: 'Lab Technician', image: labTechnicianPhoto, specialty: 'Materials Testing', badge: 'Lab' },
   { name: 'Md. Shohel Rana', role: 'Surveyor', image: surveyorPhoto, specialty: 'Land Surveying', badge: 'Survey' },
   { name: 'Saidur Rahman', role: 'Site Engineer', image: secondSiteEngineerPhoto, specialty: 'Quality Control', badge: 'QC' },
@@ -29,9 +27,9 @@ function Team() {
       <div className="relative z-10 mx-auto max-w-7xl">
         <div className="mx-auto max-w-3xl text-center animate-fade-in-up animate-stagger-1">
           <p className="text-sm uppercase tracking-[0.35em] text-amber-500">Technical team</p>
-          <h2 className="mt-4 text-4xl font-semibold text-slate-950 sm:text-5xl">Expert professionals delivering excellence</h2>
+          <h2 className="mt-4 text-4xl font-semibold text-slate-950 sm:text-5xl">Technical personnel for field and laboratory support</h2>
           <p className="mt-4 text-base leading-7 text-slate-600 sm:text-lg sm:leading-8">
-            Our dedicated team brings years of expertise and hands-on experience to every project.
+            Onega Group&apos;s engineers, surveyors, supervisors, and technicians support project delivery from site investigation to reporting.
           </p>
         </div>
 
@@ -69,18 +67,6 @@ function Team() {
                 </p>
 
                 <div className="mt-4 mx-auto h-1 w-12 bg-gradient-to-r from-amber-500/0 via-amber-500 to-amber-500/0 opacity-0 transition duration-300 group-hover:opacity-100" />
-
-                <div className="mt-5 flex justify-center gap-3 opacity-0 transition duration-300 transform translate-y-2 group-hover:translate-y-0 group-hover:opacity-100">
-                  <a href="#" className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-amber-500/10 text-xs text-amber-600 transition hover:bg-amber-500 hover:text-white">
-                    L
-                  </a>
-                  <a href="#" className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-amber-500/10 text-xs text-amber-600 transition hover:bg-amber-500 hover:text-white">
-                    E
-                  </a>
-                  <a href="#" className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-amber-500/10 text-xs text-amber-600 transition hover:bg-amber-500 hover:text-white">
-                    C
-                  </a>
-                </div>
               </div>
             </article>
           ))}

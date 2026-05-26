@@ -7,12 +7,12 @@ function About() {
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-amber-500/5 to-transparent" />
       <div className="relative z-10 mx-auto grid max-w-7xl gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
         <div className="space-y-7 animate-fade-in-up animate-stagger-1 sm:space-y-8">
-          <p className="text-sm uppercase tracking-[0.35em] text-amber-500">About ODCL</p>
+          <p className="text-sm uppercase tracking-[0.35em] text-amber-500">About Onega Group</p>
           <h2 className="text-4xl font-semibold text-slate-950 sm:text-5xl">
             A field-focused engineering company built for dependable project delivery.
           </h2>
           <p className="max-w-2xl text-base leading-7 text-slate-600 sm:text-lg sm:leading-8">
-            Onega Development & Construction Ltd. (ODCL), established in 2018, supports civil and infrastructure projects with soil investigation, pile-related services, survey, and on-site supervision across Bangladesh.
+            Onega Group, established in 2018, supports civil and infrastructure projects with soil investigation, pile-related services, survey, and on-site supervision across Bangladesh.
           </p>
           <div className="grid gap-4 sm:grid-cols-2">
             <div className="group cursor-pointer rounded-3xl border border-slate-200 bg-slate-50 p-5 transition hover:-translate-y-1 hover:border-amber-500/50 hover:bg-white hover:shadow-lg sm:p-6">
@@ -41,7 +41,7 @@ function About() {
             </div>
             <p className="mt-6 text-xs uppercase tracking-[0.28em] text-amber-300">Managing director&apos;s message</p>
             <p className="mt-4 text-base leading-7 text-slate-200 sm:text-lg sm:leading-8">
-              &quot;Quality, dynamic thinking, and innovation&quot; remains the working principle behind how ODCL plans, executes, and reports each assignment.
+              &quot;Quality, dynamic thinking, and innovation&quot; remains the working principle behind how Onega Group plans, executes, and reports each assignment.
             </p>
           </div>
 

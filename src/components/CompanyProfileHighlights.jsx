@@ -10,7 +10,7 @@ import page13Preview from '../assets/pdf-previews/doc2-page-13.jpg'
 const profileCards = [
   {
     title: 'Business Background',
-    detail: 'ODCL was built by experienced engineers to serve civil engineering contracts with field-capable execution teams.',
+    detail: 'Onega Group was built by experienced engineers to serve civil engineering contracts with field-capable execution teams.',
     image: page6Preview,
   },
   {
@@ -20,7 +20,7 @@ const profileCards = [
   },
   {
     title: 'Management Team',
-    detail: 'Leadership credentials and management roles are documented directly from the uploaded company profile.',
+    detail: 'Leadership credentials and management roles are presented for client review and procurement reference.',
     image: page8Preview,
   },
   {
@@ -45,7 +45,7 @@ const profileCards = [
   },
   {
     title: 'Delivery History',
-    detail: 'Additional project history pages reinforce ODCL’s practical delivery footprint in Bangladesh.',
+    detail: 'Additional project history pages reinforce Onega Group&apos;s practical delivery footprint in Bangladesh.',
     image: page13Preview,
   },
 ]
@@ -58,11 +58,11 @@ function CompanyProfileHighlights() {
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm uppercase tracking-[0.35em] text-amber-500">Profile Highlights</p>
           <h2 className="mt-4 text-4xl font-semibold text-slate-950 sm:text-5xl">
-            Missing company profile pages are now integrated into the website
+            Company Profile Highlights
           </h2>
           <p className="mt-4 text-base leading-7 text-slate-600 sm:text-lg sm:leading-8">
-            Key profile sections from page 6 to page 13 are now visible as structured highlights so visitors can review company background,
-            service scope, equipment, and project records without leaving the site.
+            Explore Onega Group&apos;s company background, service capabilities, equipment resources, technical team, and completed project
+            records in one place.
           </p>
         </div>
 
