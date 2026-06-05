@@ -6,7 +6,7 @@ const testimonials = [
     name: 'Engr. Mohammad Habib',
     role: 'Project Manager, Bangladesh Water Development Board',
     company: 'BWDB',
-    testimonial: 'ODCL\'s expertise in soil investigation and site supervision was instrumental in the success of our infrastructure project. Their attention to detail and professionalism exceeded our expectations.',
+    testimonial: 'Onega Group\'s expertise in soil investigation and site supervision was instrumental in the success of our infrastructure project. Their attention to detail and professionalism exceeded our expectations.',
     rating: 5,
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80',
   },
@@ -15,7 +15,7 @@ const testimonials = [
     name: 'Dr. Fahmida Akter',
     role: 'Chief Engineer, Municipal Authority',
     company: 'City Development Corp',
-    testimonial: 'Working with ODCL was a seamless experience. Their team\'s commitment to quality and safety standards set them apart. We\'ve recommended them to multiple government agencies.',
+    testimonial: 'Working with Onega Group was a seamless experience. Their team\'s commitment to quality and safety standards set them apart. We\'ve recommended them to multiple government agencies.',
     rating: 5,
     image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80',
   },
@@ -24,7 +24,7 @@ const testimonials = [
     name: 'Mr. Rajesh Kumar Singh',
     role: 'Procurement Officer, State Infrastructure',
     company: 'National Highway Authority',
-    testimonial: 'Exceptional technical knowledge and reliable project execution. ODCL delivered our road infrastructure project on time and within budget. Highly recommended!',
+    testimonial: 'Exceptional technical knowledge and reliable project execution. Onega Group delivered our road infrastructure project on time and within budget. Highly recommended!',
     rating: 5,
     image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80',
   },
@@ -42,7 +42,7 @@ const testimonials = [
     name: 'Engr. Kamal Ahmed',
     role: 'Site Director, Mega Infrastructure',
     company: 'Construction Excellence Ltd',
-    testimonial: 'ODCL\'s commitment to safety protocols and quality assurance is outstanding. They are not just a service provider but a trusted partner in our projects.',
+    testimonial: 'Onega Group\'s commitment to safety protocols and quality assurance is outstanding. They are not just a service provider but a trusted partner in our projects.',
     rating: 5,
     image: 'https://images.unsplash.com/photo-1519085360771-9852ef158dba?auto=format&fit=crop&w=400&q=80',
   },
@@ -51,7 +51,7 @@ const testimonials = [
     name: 'Mrs. Asha Patel',
     role: 'Project Lead, Infrastructure Development',
     company: 'Regional Development Board',
-    testimonial: 'Outstanding service quality and technical expertise. ODCL consistently delivers projects that meet and exceed our standards. A reliable partner for infrastructure development.',
+    testimonial: 'Outstanding service quality and technical expertise. Onega Group consistently delivers projects that meet and exceed our standards. A reliable partner for infrastructure development.',
     rating: 5,
     image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=400&q=80',
   },
@@ -94,7 +94,7 @@ function Testimonials() {
             Trusted by Industry Leaders
           </h2>
           <p className="mt-4 text-base leading-7 text-slate-300 sm:text-lg sm:leading-8">
-            Hear from our satisfied clients about their experience working with ODCL on critical infrastructure projects.
+            Hear from our satisfied clients about their experience working with Onega Group on critical infrastructure projects.
           </p>
         </div>
 

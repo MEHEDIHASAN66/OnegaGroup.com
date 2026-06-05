@@ -17,7 +17,7 @@ const services = [
   {
     title: 'Bridge Construction',
     icon: 'BC',
-    description: 'ODCL supports bridge-related civil work with site-focused execution and practical construction oversight.',
+    description: 'Onega Group supports bridge-related civil work with site-focused execution and practical construction oversight.',
   },
   {
     title: 'Offshore Construction',
@@ -42,7 +42,7 @@ function Services() {
             Core engineering services for real project conditions.
           </h2>
           <p className="mt-4 text-lg leading-8 text-slate-600">
-            ODCL provides practical technical support from early investigation to field execution so clients can make faster and safer decisions on site.
+            Onega Group provides practical technical support from early investigation to field execution so clients can make faster and safer decisions on site.
           </p>
         </div>
 

@@ -28,8 +28,8 @@ const contactItems = [
   },
   {
     label: 'Website',
-    value: 'www.odclbd.com',
-    href: 'https://www.odclbd.com',
+    value: 'onegagroup.com',
+    href: 'https://onegagroup.com',
   },
 ]
 
@@ -43,7 +43,7 @@ const initialFormData = {
 
 function buildInquiryMessage(formData) {
   return [
-    'Hello ODCL,',
+    'Hello Onega Group,',
     '',
     'I would like to discuss a project inquiry.',
     '',

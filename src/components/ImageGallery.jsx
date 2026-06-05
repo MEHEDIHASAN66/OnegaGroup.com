@@ -83,19 +83,19 @@ const galleryImages = [
   },
   {
     src: fieldRigImage,
-    alt: 'ODCL field rig setup',
+    alt: 'Onega Group field rig setup',
     title: 'Field Rig Setup',
     subtitle: 'On-site soil investigation',
   },
   {
     src: crewInspectionImage,
-    alt: 'ODCL crew inspection in the field',
+    alt: 'Onega Group crew inspection in the field',
     title: 'Crew Inspection',
     subtitle: 'Field supervision and testing',
   },
   {
     src: fieldMobilizationImage,
-    alt: 'ODCL mobilization scene in the field',
+    alt: 'Onega Group mobilization scene in the field',
     title: 'Site Mobilization',
     subtitle: 'Project execution in the field',
   },
@@ -109,9 +109,9 @@ function ImageGallery() {
       <div className="mx-auto max-w-7xl">
         <div className="mb-12 text-center animate-fade-in-up animate-stagger-1">
           <p className="text-sm uppercase tracking-[0.35em] text-amber-500">Photo Gallery</p>
-          <h2 className="mt-4 text-4xl font-semibold text-slate-950 sm:text-5xl">Project Photo Gallery</h2>
+          <h2 className="mt-4 text-4xl font-semibold text-slate-950 sm:text-5xl">Team and Field Gallery</h2>
           <p className="mx-auto mt-4 max-w-3xl text-lg leading-8 text-slate-600">
-            Real portraits and field documentation from the uploaded company profile now appear here instead of stock placeholders.
+            View technical team profiles and field documentation from Onega Group&apos;s company records and project activities.
           </p>
         </div>
 
