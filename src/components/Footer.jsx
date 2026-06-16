@@ -59,7 +59,7 @@ function Footer() {
         </div>
 
         <div className="flex flex-col gap-3 pt-6 text-sm sm:flex-row sm:items-center sm:justify-between">
-          <p>Copyright 2026 Onega Development &amp; Construction Ltd.</p>
+          <p>Copyright © 2026 Onega Group</p>
           <p className="text-slate-500">All rights reserved.</p>
         </div>
       </div>

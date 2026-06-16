@@ -27,6 +27,15 @@ const concerns = [
     href: '#contact',
     action: 'Contact Us',
   },
+  {
+    name: 'Onega Cleaning & Design Services',
+    shortName: 'OCDS',
+    category: 'Cleaning & Design Services',
+    description:
+      'Commercial and residential cleaning, interior design, and maintenance services for homes and offices across Bangladesh.',
+    href: '#contact',
+    action: 'Contact Us',
+  },
 ]
 
 function SisterConcerns() {
