@@ -34,13 +34,13 @@ function Footer() {
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-slate-500">Direct contact</p>
             <div className="mt-5 grid gap-3 text-sm">
-              <a href="tel:+8801714109516" className="transition hover:text-amber-300">
-                +880 1714-109516
+              <a href="tel:+88009617109516" className="transition hover:text-amber-300">
+                +880 09617-109516
               </a>
               <a href="mailto:odclbd@gmail.com" className="transition hover:text-amber-300">
                 odclbd@gmail.com
               </a>
-              <a href="https://wa.me/8801714109516" target="_blank" rel="noreferrer" className="transition hover:text-amber-300">
+              <a href="https://wa.me/88009617109516" target="_blank" rel="noreferrer" className="transition hover:text-amber-300">
                 WhatsApp inquiry
               </a>
               <a
