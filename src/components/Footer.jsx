@@ -14,7 +14,7 @@ function Footer() {
         <div className="grid gap-10 border-b border-white/10 pb-10 md:grid-cols-[1.1fr_0.9fr_0.9fr]">
           <div>
             <p className="text-xs uppercase tracking-[0.32em] text-amber-300">Onega Group</p>
-            <h2 className="mt-4 text-3xl font-semibold text-white">Onega Development &amp; Construction Ltd.</h2>
+            <h2 className="mt-4 text-3xl font-semibold text-white">Onega Group</h2>
             <p className="mt-4 max-w-md text-sm leading-7 text-slate-400">
               Civil engineering, survey, soil testing, piling, and documented field delivery backed by real company records and technical team credentials.
             </p>
@@ -35,10 +35,7 @@ function Footer() {
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-slate-500">Direct contact</p>
             <div className="mt-5 grid gap-3 text-sm">
               <a href="tel:+8801714109516" className="transition hover:text-amber-300">
-                +880 1714 109 516
-              </a>
-              <a href="tel:+880244611433" className="transition hover:text-amber-300">
-                +880 2 4461 1433
+                +880 1714-109516
               </a>
               <a href="mailto:odclbd@gmail.com" className="transition hover:text-amber-300">
                 odclbd@gmail.com

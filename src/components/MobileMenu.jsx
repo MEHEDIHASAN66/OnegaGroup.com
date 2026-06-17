@@ -54,7 +54,7 @@ function MobileMenu() {
                 className="mb-2 inline-flex w-full items-center justify-center rounded-full border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-700 transition hover:border-amber-400/40 hover:text-slate-950"
                 onClick={closeMenu}
               >
-                Call +880 1714 109 516
+                Call +880 1714-109516
               </a>
               <a
                 href="#contact"

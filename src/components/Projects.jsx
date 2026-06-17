@@ -74,7 +74,7 @@ function Projects() {
                 <p className="mt-4 text-sm leading-6 text-slate-400 transition group-hover:text-slate-300 sm:text-base sm:leading-7">
                   {project.summary}
                 </p>
-              </div>
+              </div> 
             </article>
           ))}
         </div>

@@ -1,6 +1,6 @@
 const concerns = [
   {
-    name: 'Onega Development & Construction Ltd.',
+    name: 'Onega Group',
     shortName: 'ODCL',
     category: 'Construction & Civil Engineering',
     description:

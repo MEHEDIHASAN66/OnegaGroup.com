@@ -2,7 +2,6 @@ import { useState } from 'react'
 
 const companyEmail = 'odclbd@gmail.com'
 const companyPhone = '+8801714109516'
-const companyTelephone = '+880244611433'
 const whatsappPhone = '8801714109516'
 
 const contactItems = [
@@ -13,13 +12,8 @@ const contactItems = [
   },
   {
     label: 'Phone',
-    value: '+880 1714 109 516',
+    value: '+880 1714-109516',
     href: `tel:${companyPhone}`,
-  },
-  {
-    label: 'Telephone',
-    value: '+880 2 4461 1433',
-    href: `tel:${companyTelephone}`,
   },
   {
     label: 'Email',
