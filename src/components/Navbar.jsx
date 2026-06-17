@@ -38,10 +38,10 @@ function Navbar() {
 
           <div className="flex items-center gap-3">
             <a
-              href="tel:+8801714109516"
+              href="tel:+88009617109516"
               className="hidden rounded-full border border-slate-200 px-4 py-2 text-sm font-semibold text-slate-700 transition hover:border-amber-500/40 hover:text-slate-950 sm:inline-flex"
             >
-              Call +880 1714-109516
+              Call +880 09617-109516
             </a>
             <a
               href="#contact"
