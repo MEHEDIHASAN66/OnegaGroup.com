@@ -37,11 +37,8 @@ function Footer() {
               <a href="tel:+88009617109516" className="transition hover:text-amber-300">
                 +880 09617-109516
               </a>
-              <a href="mailto:odclbd@gmail.com" className="transition hover:text-amber-300">
-                odclbd@gmail.com
-              </a>
               <a href="https://wa.me/88009617109516" target="_blank" rel="noreferrer" className="transition hover:text-amber-300">
-                WhatsApp inquiry
+                WhatsApp: +880 09617-109516
               </a>
               <a
                 href="https://maps.google.com/?q=8/2%20Paribagh%20Motaleb%20Tower%20Shahbagh%20Dhaka-1000"
